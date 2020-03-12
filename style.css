@@ -8,11 +8,14 @@
 *{
     margin: 0px;
     padding: 0px;
-    color: darkslategray;
+    color: ghostwhite;
   
   }
   body{
-        background-image: url('img/background-image')
+        background-image: url("cool\ pic.jpg")
+        
+        
+
   }
   .container{
     display: grid;
@@ -27,7 +30,8 @@
     justify-content: center;
     font-size: 50px;
     font-style: oblique;
-    color: slategrey;
+    font-family: sans-serif;
+    color: rgb(144, 112, 112);
   }
   .nav_bar{
     display: flex;
@@ -38,8 +42,8 @@
   .nav_bar a {
   
     display: grid;
-    color: darkslategrey;
-    padding: 5px; 
+    color : rgb(112, 121, 144);
+     padding: 5px; 
     float: right;
     font-size: 30px;
   }
